@@ -1,6 +1,8 @@
 # Load DSL and set up stages
 require "capistrano/setup"
 
+require 'sshkit/sudo'
+
 # Include default deployment tasks
 require "capistrano/deploy"
 

@@ -138,3 +138,5 @@ gem "recaptcha", require: "recaptcha/rails"
 gem 'sendgrid-ruby'
 
 gem 'newrelic_rpm'
+
+gem 'sshkit-sudo'
